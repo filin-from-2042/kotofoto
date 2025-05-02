@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "753614430069",
+    "firebase_url": "https://kotophoto-95eff.firebaseio.com",
+    "project_id": "kotophoto-95eff",
+    "storage_bucket": "kotophoto-95eff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753614430069:android:7108c57a7a343e3f",
+        "android_client_info": {
+          "package_name": "com.kotophoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753614430069-3fjum0qd4mic28us4g1kacknrbc087rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcckM91Ac9q6DFFZ_CXxZVX2pKagKc8F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753614430069-3fjum0qd4mic28us4g1kacknrbc087rb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

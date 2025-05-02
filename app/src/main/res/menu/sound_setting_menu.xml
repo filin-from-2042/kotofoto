@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/removeCustomSound"
+        android:icon="@drawable/ic_remove_custom"
+        android:title="@string/button_remove"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false" />
+    <item
+        android:id="@+id/addNewSound"
+        android:icon="@drawable/ic_add_new"
+        android:title="@string/button_add_new"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/button_save"
+        android:visible="false"
+        app:showAsAction="ifRoom|withText" />
+</menu>

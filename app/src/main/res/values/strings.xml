@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">КотоФото</string>
+    <string name="folder_name">KotoPhoto</string>
+    <string name="sound_setting_label">Выбор звука</string>
+    <string name="request_camera_permission">Приложению требуется разрешение на доступ к камере для создания фото.</string>
+    <string name="request_storage_permission">Приложению требуется разрешение на доступ к хранилищу данных для сохранения фото.</string>
+    <string name="request_audio_permission">Приложению требуется разрешение на доступ к микрофону для записи новых звуков.</string>
+    <string name="camera_error">Данное устройство не поддерживает Camera2 API.</string>
+
+    <string name="SOUNDS_FOLDER">Sounds</string>
+
+
+    <string name="kotophoto_sp_file_key">com.kotophoto.SP_FILE</string>
+    <string name="selected_sound_key">com.kotophoto.SELECTED_SOUND</string>
+    <string name="audio_permission_requested_key">com.kotophoto.AP_REQUESTED</string>
+    <string name="last_captured_photo_key">com.kotophoto.LAST_CAPTURED_PHOTO</string>
+    <string name="button_add_new">add new</string>
+    <string name="button_save">save</string>
+    <string name="button_remove">remove</string>
+
+    <string name="record_sound_dialog_title">Запись нового звука</string>
+    <string name="record_sound_dialog_cancel">Отмена</string>
+    <string name="record_sound_dialog_ok">Сохранить</string>
+    <string name="record_sound_tmp_filename">tmp_sound_record</string>
+    <string name="record_sound_filename_pattern">Запись</string>
+    <string name="record_sound_file_exist_message">Файл с таким именем уже существует. Укажите другое имя файла</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/newRecordName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/newRecordName"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_delete_forever_black"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/recordL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newRecordName"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/recordBtn"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ic_record_normal_ll"
+            android:elevation="10dp" />
+
+
+        <TextView
+            android:id="@+id/timerRecordTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recordBtn"
+            android:layout_centerHorizontal="true"
+            android:text="00:00" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/playL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newRecordName"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ic_play_normal_ll"
+            android:elevation="10dp" />
+
+        <TextView
+            android:id="@+id/timerPlayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playBtn"
+            android:layout_centerHorizontal="true"
+            android:text="00:00" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

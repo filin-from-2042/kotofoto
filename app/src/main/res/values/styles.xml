@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="CameraTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="SettingsButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/ic_settings_sl</item>
+    </style>
+
+    <style name="PlayButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/ic_sound_play_circle_sl</item>
+    </style>
+
+    <style name="CaptureButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/ic_capture_sl</item>
+    </style>
+
+</resources>
